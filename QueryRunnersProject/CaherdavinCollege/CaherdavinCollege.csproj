@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7272490F-AFCC-443A-98F9-5973B40D7BBD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CaherdavinCollege</RootNamespace>
+    <AssemblyName>CaherdavinCollege</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="formAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAdministrator.Designer.cs">
+      <DependentUpon>formAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formApplicant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formApplicant.Designer.cs">
+      <DependentUpon>formApplicant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formApplicantDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formApplicantDetails.Designer.cs">
+      <DependentUpon>formApplicantDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formHOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHOC.Designer.cs">
+      <DependentUpon>formHOC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formITTechnician.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formITTechnician.Designer.cs">
+      <DependentUpon>formITTechnician.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formContainer.Designer.cs">
+      <DependentUpon>formContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formStudent.Designer.cs">
+      <DependentUpon>formStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSuperAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSuperAdministrator.Designer.cs">
+      <DependentUpon>formSuperAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLecturer.Designer.cs">
+      <DependentUpon>formLecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="imageform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imageform.Designer.cs">
+      <DependentUpon>imageform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="timetable1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timetable1.Designer.cs">
+      <DependentUpon>timetable1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formAdministrator.resx">
+      <DependentUpon>formAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formApplicant.resx">
+      <DependentUpon>formApplicant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formApplicantDetails.resx">
+      <DependentUpon>formApplicantDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formContainer.resx">
+      <DependentUpon>formContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHOC.resx">
+      <DependentUpon>formHOC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formITTechnician.resx">
+      <DependentUpon>formITTechnician.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLecturer.resx">
+      <DependentUpon>formLecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formStudent.resx">
+      <DependentUpon>formStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSuperAdministrator.resx">
+      <DependentUpon>formSuperAdministrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imageform.resx">
+      <DependentUpon>imageform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="timetable1.resx">
+      <DependentUpon>timetable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CollegeEntities\CollegeEntities.csproj">
+      <Project>{18ffcfad-14b1-476e-bf38-2edcc20fcd98}</Project>
+      <Name>CollegeEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CollegeLayer\CollegeLayer.csproj">
+      <Project>{1b9d8dc6-8d25-4aec-b440-63a93877bccf}</Project>
+      <Name>CollegeLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{2e3e2a5f-7ab0-4de7-a169-f67b682b528f}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Caherdavin College.jpg" />
+    <Content Include="Resources\default.JPG" />
+    <None Include="Resources\Caherdavin College1.jpg" />
+    <None Include="Resources\Caherdavin College.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
