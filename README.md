@@ -1,8 +1,12 @@
-CaherDavin College ReadMe File with instructions 
+
+
+
+
+## CaherDavin College ReadMe File with instructions 
 
 When the project is downloaded it will need to be built and cleaned to extract all the packages 
-the Database connection string will need to be checked, located in the datalayer, 
-To ensure you are connected to the right database and server 
+Change the Database connection string , located in the datalayer, 
+
 There is a Bacpac file included with the project and this can be imported into SQL server management 
 studio by clicking import data tier application 
 This will import any data and tables needed 
@@ -20,6 +24,18 @@ Click on save timetable as image this will create a folder in the debug folder c
 a screenshot image of the timetable to that folder 
 An error we recently encountered is may appear where it asks you to retake the screenshot so click it again and it will work 
 
+## Screenshots of Application 
 
+### Timetable With some enteries
+<img src="Screenshots/Timetablewithsomeenteries.jpg" alt="Timetable Screenshot">
+
+### Main Screen showing all option tabs
+
+<img src="Screenshots/Main Screen_ShowingAllAvailableTabs_SuperAdmin.jpg">
+
+
+### Database Diagram
+
+<img src="Screenshots/DBDiagram.jpg">
 
 
