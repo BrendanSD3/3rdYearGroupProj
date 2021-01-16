@@ -55,8 +55,8 @@ namespace DataAccessLayer
             connection = new SqlConnection();
 
             //connection.ConnectionString = "Data Source=SQL1.student.litdom.lit.ie\\INST18SDT8;Initial Catalog=CaherdavinDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-            connection.ConnectionString = "Data Source=localhost;Initial Catalog=CaherdavinDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
+            //connection.ConnectionString = "Data Source=localhost;Initial Catalog=DBCaherDavinCollege;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            connection.ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DBCaherDavinCollege;Integrated Security=True";
             try
             {
                 connection.Open();
